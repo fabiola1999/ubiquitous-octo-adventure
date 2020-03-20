@@ -1,0 +1,158 @@
+
+.nav_dash{
+    background-color:$dark-blue;
+    color:$white;
+    font-size: 15px !important;
+    font-family:montserrat !important ;
+    & i{
+        color: $dark-yellow;
+    }
+    & a {
+        font-family:montserrat !important ;
+        color:$white !important;
+    
+    }
+}
+
+.nav-item-left {
+    font-size: 20px !important;
+    font-family:montserrat !important ;
+    color:$white !important;
+    display: inline-block !important;
+    & a {
+        font-size: 20px !important;
+        font-family:montserrat !important ;
+        color:$white !important;
+        // font-weight: bold;    
+    }
+    & i {
+        color: $dark-yellow !important;
+    }
+}
+
+.logo{
+    background-color:$white;
+    color:$dark-blue;
+    width: 75% !important;
+    height: 120px !important;
+    font-size: 20px !important;
+    font-family:montserrat !important ;
+    & i{
+        color: $dark-yellow;
+    }
+}
+
+//container
+.menu{
+    background-color:$dd-blue;
+    color: $white;
+    font-weight: bold;
+    height: 80px;
+    align-content: center;
+    padding-left: 50px;
+}
+.content{
+    background-color:$dirty-white;
+}
+.card1{
+    background-color:$blue-light;
+    color:#BFBFBF !important;
+    font-family: 'Montserrat Alternates' !important ;
+    font-size: 12px !important;  
+    font-weight: bold;
+    & h1{
+        font-size: 12px !important;  
+        font-weight: bold;
+    }
+    & h4{
+        font-size: 15px !important;  
+        font-weight: bold;
+        font-family: 'Montserrat Alternates' !important ;
+    }
+    & p{
+        font-size: 20px !important;  
+        font-weight: bold;
+    }
+}
+.card2{
+    background-color:$ddd-blue;
+    color:$white !important;
+    font-family:'montserrat Alternates' !important ;
+    font-size: 12px !important;  
+    font-weight: bold;
+    & h1{
+        font-size: 12px !important;  
+        font-weight: bold;
+    }
+    & h4{
+        font-size: 15px !important;  
+        font-weight: bold;
+        font-family: 'Montserrat Alternates' !important ;
+    }
+    & p{
+        font-size: 12px !important;  
+        font-family: 'Montserrat' !important ;
+        font-weight: lighter;
+    }
+}
+.card3{
+    background-color:$rose;
+    color:$white !important;
+    font-family: 'Montserrat Alternates' !important ;
+    font-size: 12px !important;  
+    font-weight: bold;
+    & h1{
+        font-size: 12px !important;  
+        font-weight: bold;
+    }
+    & h4{
+        font-size: 15px !important;  
+        font-weight: bold;
+        font-family: 'Montserrat Alternates' !important ;
+    }
+    & p{
+        font-size: 12px !important;  
+        font-family: 'Montserrat'  !important ;
+        font-weight: lighter;
+        padding-left: 20% !important;
+    }
+}
+.card4{
+    background-color:$white;
+    color:$dd-blue !important;
+    font-family: 'Montserrat Alternates' !important ;
+    font-size: 12px !important;  
+    font-weight: bold;
+    & h1{
+        font-size: 12px !important;  
+        font-weight: bold;
+    }
+    & h4{
+        font-size: 15px !important;  
+        font-weight: bold;
+        font-family: 'Montserrat Alternates' !important ;
+    }
+    & p{
+        font-size: 20px !important;  
+        font-weight: bold;
+        padding-left: 20% !important;
+    }
+}
+
+.step1{
+    color:$dd-blue !important;
+    font-family:montserrat !important ;
+    font-size: 12px !important;       
+}
+.nav-item .active {
+    background-color:rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    border-left: 8px solid rgba(255, 255, 255, 0.2);
+    padding-left: 1rem !important;
+    height: 50px !important;
+    display: flex;
+    align-items: center;
+}
+// .search {
+//     background-color: rgba(255, 255, 255, 0.2) !important; /* White with 50% alpha */
+//   }

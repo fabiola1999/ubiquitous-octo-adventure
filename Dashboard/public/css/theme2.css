@@ -1,0 +1,146 @@
+.cld-main{
+  /* width: 400px; */
+}
+#caleandar{
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 12px;
+}
+.cld-main a{
+  color: #FFFFFF;
+}
+.cld-main svg{
+  fill: #FFFFFF;
+}
+  .cld-datetime{
+    position: relative;
+    /* width: 400px;; */
+    /* min-width: 100px; */
+    /* max-width: 500px; */
+    margin: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    background-color: #012840;
+    color: #F5A10E;
+    font-weight: bold;
+    font-size: 20px;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+  }
+  #DemoCanvas{
+    display: flex;
+    align-items: flex-start;
+    
+  }
+  #circle{
+    border: 1px;
+    border-color: #F5A10E;
+  }
+
+  .cld-datetime .today{
+    position: relative;
+    width: calc(100% - 40px);
+    margin: auto;
+    margin-top: .5rem;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+  }
+  .cld-nav{
+    position: relative;
+    /* width: 23px; */
+    /* height: 20px; */
+    margin-top: 2px;
+  }
+  .cld-nav:hover{
+    cursor: pointer;
+  }
+  .cld-nav:hover svg{
+      fill: #F5A10E;
+  }
+  .cld-rwd{
+    /* float: left; */
+  }
+  .cld-fwd{
+    /* float: right; */
+  }
+    .cld-nav svg:hover{
+
+    }
+.cld-labels, .cld-days{
+  padding-left: 0;
+
+}
+.cld-label{
+  color: #FFFFFF;
+  background-color: #012840;
+}
+  .cld-label, .cld-day{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 14.28%;
+    text-align: center;
+  }
+  .cld-day{
+    border: 1px solid #eee;
+  }
+  .cld-day.today .cld-number{
+    background: #F5A10E;
+    color: #fff;
+  }
+  .cld-day.disableDay{
+    opacity: 2;
+    background-color: #000; 
+  }
+  .cld-day.nextMonth, .cld-day.prevMonth{
+    opacity: 0.5; 
+     /* background-color: #606060; */
+  }
+    .cld-number{
+      position: relative;
+      margin: 0;
+      padding: 10px;
+      color: #606060;
+    }
+      .cld-title{
+        position: absolute;
+        z-index: 5;
+        display: none;
+        top: 35px;
+        left: 0;
+        padding: 5px 10px;
+        background: #fff;
+        white-space: nowrap;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+      .cld-number:hover .cld-title{
+        display: block;
+      }
+      .cld-title::before{
+        content: '';
+        position: absolute;
+        top: -7.5px; left: 10px;
+        width: 0;
+        height: 0;
+        border-left: 7.5px solid transparent;
+        border-right: 7.5px solid transparent;
+
+        border-bottom: 7.5px solid #ccc;
+      }
+      .cld-number.eventday{
+        font-weight: bold;
+        color: #0080FF;
+      }
+      .cld-number.eventday:hover{
+        cursor: pointer;
+        background: #eee;
+      }
+      .today .cld-number.eventday:hover{
+        background: #005EFF;
+      }

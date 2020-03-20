@@ -1,0 +1,3 @@
+<footer class="py-2 px-3  text-white border-top position-absolute w-100" style="background-color:#00305A; font-size:15px; bottom: 0;">
+    <span style="color:#F5A10E; font-weight:bold;"> &copy;  </span> Copyright 2020 <strong> EMP TIME Employee Attendance Management System.</strong> All Rights Reserved.  by <span style="color:#F5A10E;"> <a href=# class="font-weight-bold text-reset text-decoration-none"> Briluce Services.</a> </span>
+</footer>
